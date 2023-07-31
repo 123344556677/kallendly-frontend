@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.templating": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true
+}

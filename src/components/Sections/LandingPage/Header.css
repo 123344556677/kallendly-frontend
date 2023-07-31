@@ -1,0 +1,256 @@
+.promo-banner {
+    display: flex;
+    width: 100vw;
+    min-height: 45px;
+    background-color: #1569ef;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .promo-banner-neon-wrapper {
+    background-color: #01194a;
+    height: 45px;
+    overflow: hidden;
+  }
+  
+  #promo-banner-neon {
+    width: 233px;
+    transform: translate(0px, 6px);
+    margin-left: -15px;
+  }
+  
+  #promo-banner-neon .st0 {
+    fill: none;
+    stroke: #5ef8ff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  #promo-banner-neon .st1 {
+    opacity: 0.2;
+    fill: none;
+    stroke: #5ef8ff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  #promo-banner-neon .st2 {
+    fill: none;
+    stroke: #5ef8ff;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    filter: blur(2px);
+    opacity: 0.7;
+  }
+  
+  .promo-banner-cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .promo-banner-cta {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .promo-banner-lifetime {
+    background-color: #5ef8ff;
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  
+  .promo-banner-button {
+    background-color: #01194a;
+    font-size: 15px;
+    color: #5ef8ff;
+    border-radius: 100px;
+    padding: 3px 11px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    box-shadow: 0px 4px 0px 0px #01194a5c;
+    transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .promo-banner-button:hover {
+    text-shadow: 0px 0px 8px;
+    color: white;
+  }
+  
+  #promo-banner-tag {
+    transform: rotate(10deg) translate(-10px, -1px);
+    height: 45px;
+    overflow: visible;
+    z-index: 1021;
+  }
+  
+  #promo-banner-tag .st0 {
+    opacity: 0.3;
+  }
+  #promo-banner-tag .st1 {
+    fill: #01194a;
+  }
+  #promo-banner-tag .st2 {
+    fill: #ffffff;
+  }
+  #promo-banner-tag .st3 {
+    fill: none;
+    stroke: #2338d9;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+  #promo-banner-tag .st4 {
+    fill: none;
+    stroke: #2338d9;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+  
+  .promo-banner-crevron {
+    flex: 1 0 0%;
+    height: 45px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .promo-banner-crevron.-left {
+    background-color: #01194a;
+  }
+  
+  .promo-banner-crevron-svg {
+    position: absolute;
+    top: 50%;
+  }
+  
+  .-left .promo-banner-crevron-svg {
+    transform: translateY(-50%);
+    right: 0;
+  }
+  
+  .-right .promo-banner-crevron-svg {
+    transform: translateY(-50%) scaleX(-1) scaleY(1);
+    left: 0;
+  }
+  
+  .promo-banner-crevron-svg .st0 {
+    filter: blur(0.8px);
+  }
+  
+  .-left .promo-banner-crevron-svg .st0 {
+    fill: #0d6efd;
+  }
+  .-left .promo-banner-crevron-svg .st1 {
+    stroke: #0d6efd;
+  }
+  
+  .promo-banner-crevron-svg .st1 {
+    fill: none;
+    stroke: #0d6efd;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    filter: blur(3px);
+  }
+  
+  .-right .promo-banner-crevron-svg .st0 {
+    fill: #5ef8ff;
+  }
+  .-right .promo-banner-crevron-svg .st1 {
+    stroke: #5ef8ff;
+  }
+  
+  .promo-banner-pointed-edge {
+    margin: 0 10px 0 -22px;
+    height: 45px;
+  }
+  .promo-banner-pointed-edge .st0 {
+    fill: #01194a;
+  }
+  
+  .promo-banner-crevron.-small {
+    display: none;
+  }
+  
+  @media (max-width: 1089px) {
+    .promo-banner {
+      flex-wrap: wrap;
+    }
+    .promo-banner-pointed-edge {
+      display: none;
+    }
+    .promo-banner-crevron.-right {
+      display: none;
+    }
+    .promo-banner-crevron.-small {
+      display: block;
+      background-color: #01194a;
+    }
+    .promo-banner-cta-wrapper {
+      flex: 0 0 auto;
+      width: 100%;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .promo-banner-crevron,
+    .promo-banner-neon-wrapper {
+      z-index: 2;
+    }
+    .promo-banner-button,
+    #promo-banner-tag {
+      display: inline;
+    }
+    .-right .promo-banner-crevron-svg .st0 {
+      fill: #0d6efd;
+    }
+    .-right .promo-banner-crevron-svg .st1 {
+      stroke: #0d6efd;
+    }
+  }
+  
+  @media (max-width: 725px) {
+    .promo-banner-cta-wrapper {
+      padding: 10px;
+    }
+    #promo-banner-tag {
+      height: 4px;
+    }
+    #promo-banner-tag .st4 {
+      transform: rotate(-30deg);
+      transform-origin: 14px 20px;
+    }
+    .promo-banner-button,
+    .promo-banner-cta {
+      position: relative;
+      z-index: 1;
+    }
+    .promo-banner-button {
+      margin: 3px 0;
+    }
+  }
+  @media (max-width: 520px) {
+    .promo-banner-cta {
+      font-size: 3.5vw;
+      margin-bottom: 8px;
+    }
+  }
+  @media (max-width: 320px) {
+    .promo-banner-crevron,
+    .promo-banner-neon-wrapper {
+      height: 14vw;
+    }
+    #promo-banner-neon {
+      max-width: 80vw;
+      transform: translate(0px, 1.6vw);
+    }
+  }
+  
+  #promo-banner-neon .st1 {
+    opacity: 0 !important;
+  }
+  

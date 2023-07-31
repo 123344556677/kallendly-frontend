@@ -1,0 +1,88 @@
+{
+  "name": "crud-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@amir04lm26/react-modern-calendar-date-picker": "^1.0.1",
+    "@emotion/react": "^11.10.4",
+    "@ericz1803/react-google-calendar": "^4.2.2",
+    "@microsoft/mgt-element": "^2.6.1",
+    "@microsoft/mgt-msal2-provider": "^2.6.1",
+    "@microsoft/mgt-react": "^2.6.1",
+    "@progress/kendo-react-dateinputs": "^5.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "apple-signin-auth": "^1.7.4",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "formik": "^2.2.9",
+    "gapi": "^0.0.3",
+    "gapi-script": "^1.2.0",
+    "immutable": "^4.0.0",
+    "ip-regex": "^5.0.0",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-bootstrap-timezone-picker": "^2.0.1",
+    "react-calendar": "^3.7.0",
+    "react-country-dropdown": "^1.0.4",
+    "react-country-region-selector": "^3.6.1",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-file-base64": "^1.0.3",
+    "react-google-calendar-api": "^2.1.0",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.4.0",
+    "react-microsoft-login": "^1.15.0",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-razorpay": "^1.1.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.7",
+    "react-select": "^5.4.0",
+    "react-select-country-list": "^2.2.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.33",
+    "timezone-select-js": "^1.0.3",
+    "validator": "^13.7.0",
+    "web-vitals": "^1.1.2"
+  },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "6.14.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

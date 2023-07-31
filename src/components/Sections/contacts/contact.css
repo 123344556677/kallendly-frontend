@@ -1,0 +1,13 @@
+body {
+  margin: 0 auto;
+}
+.contact-input {
+  background-color: #fff;
+  padding: 6px 12px;
+  margin-bottom:6px ;
+  border: 1px solid rgb(92, 91, 91);
+  border-radius: 5px;
+}
+#contact {
+  font-weight: 700;
+}

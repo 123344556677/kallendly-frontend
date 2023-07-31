@@ -1,0 +1,91 @@
+.Calendar {
+  box-shadow: none !important;
+  width: 410px !important;
+}
+
+.Calendar__header {
+  border-top: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  margin: 2px !important;
+}
+
+.Calendar__day {
+  font-size: medium !important;
+  padding: 10px !important;
+}
+.profileImageinRe{
+  /* background-image: url("https://www.gravatar.com/avatar/5b1a31c67177388f1d31ded1fd71f9bd?d=blank&s=200"); */
+  background-color: #dee2e6;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #dee2e6;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.Calendar__day.-selected {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.Calendar__weekDays {
+  font-size: medium !important;
+  color: black !important;
+  margin-top: 9px !important;
+  margin-bottom: 0px !important;
+  padding-left: 1.9em !important;
+  padding-right: 1.9em !important;
+}
+
+.border-right {
+  border-right: 1px solid;
+}
+
+.profile-image {
+  height: 35px !important ;
+  width: 35px !important;
+  background-position: center;
+  background-size: contain;
+  border-radius: 100%;
+}
+
+abbr {
+  text-decoration: auto !important;
+}
+
+.line-height {
+  line-height: 0px !important;
+}
+
+.bg-gradient-blue-vertical {
+  background: #1569ef;
+  background: linear-gradient(0deg, #4abbf4, #1569ef);
+}
+
+.shadow-xl-blue {
+  box-shadow: 0 0.7rem 1rem rgba(4, 21, 48, 0.2) !important;
+}
+
+.border-radius-main {
+  border-radius: 14px !important;
+}
+
+.border-radius {
+  border-radius: 12px !important;
+}
+
+small {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 670px) {
+  .border-right {
+    border-right: none !important;
+    margin-bottom: 40px;
+  }
+}

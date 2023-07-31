@@ -1,0 +1,184 @@
+.booking {
+  font-weight: 700 !important;
+}
+.group-input {
+  background-color: #e9ecef !important;
+  max-width: 115px;
+}
+.alert {
+  border-color: #0d3f8f;
+  /* background-color:#b9d2fa; */
+}
+.arrow-pointer {
+  font-size: 30px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:in,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shbooking-cardadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: black;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+.range-selector {
+  width: 120px !important;
+  border-radius: 0.375rem;
+}
+
+.timing-input {
+  /* font-size: 1rem!important;
+    font-weight: 400!important; */
+  border-color: #ced4da !important;
+  color: #212529 !important;
+}
+.range-group-input {
+  width: 200px !important;
+}
+.unavailable {
+  color: #6c757d !important;
+  font-style: italic;
+}
+.booking-card {
+  border-radius: 0.375rem;
+  padding-bottom: 0px !important;
+}
+.add-question {
+  color: #1569ef;
+}
+.add-question:hover {
+  color: #1154bf;
+}
+.confirm-url {
+  font-weight: 700 !important;
+  color: #6c757d !important;
+}
+.range-fonts {
+  color: #212529;
+}
+.confirm-url-input {
+  background-color: #e9ecef !important;
+}
+.booking-charge {
+  color: #6c757d !important;
+}
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  z-index: 1020;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* width: 66.66666667%; */
+}
+.create {
+  color: #fff;
+  background-color: #1569ef !important ;
+  border-radius: 0.375rem;
+}
+.unlimited {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+.create:hover {
+  color: #fff;
+  background-color: #1259cb !important ;
+  border-radius: 0.375rem;
+}
+.cancel {
+  border-radius: 0.375rem;
+}
+.cancel:hover {
+  border-radius: 0.375rem;
+}
+.remove-link {
+  color: #6c757d;
+  font-size: 15px;
+}
+.remove-link:hover {
+  color: #6c757d;
+}
+.create:hover {
+  color: #fff;
+}
+.remove-window-link {
+  color: #6c757d;
+  font-size: 15px;
+  margin-top: 10px !important;
+  position: absolute;
+}
+.remove-window-link {
+  color: #6c757d;
+  font-size: 15px;
+  margin-top: 20px !important;
+  position: absolute;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+  .remove-link {
+    color: #6c757d;
+    font-size: 15px;
+    /* margin-top: 20px!important; */
+    /* position: absolute; */
+  }
+  .remove-link:hover {
+    color: #6c757d;
+  }
+  .add-window {
+    color: #1569ef;
+    float: left;
+  }
+  .add-window:hover {
+    color: #1154bf;
+    float: left;
+  }
+  .remove-window-link {
+    color: #6c757d;
+    font-size: 15px;
+    /* margin-top: px!important; */
+    margin-left: 120px !important;
+    position: absolute;
+  }
+  .remove-window-link {
+    color: #6c757d;
+    font-size: 15px;
+    margin-left: 120px !important;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .remove-link {
+    color: #6c757d;
+    font-size: 15px;
+    /* margin-top: 20px!important; */
+    position: absolute;
+  }
+  .remove-link:hover {
+    color: #6c757d;
+  }
+  .add-window {
+    color: #1569ef;
+    float: right;
+  }
+  .add-window:hover {
+    color: #1154bf;
+    float: right;
+  }
+
+  .window-col {
+    float: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  .booking-div {
+    display: flex;
+  }
+}

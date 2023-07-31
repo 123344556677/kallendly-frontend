@@ -1,0 +1,62 @@
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.dropDownIcon {
+  -webkit-appearance: none;
+  background-color: white;
+}
+
+.d-list {
+  list-style: none;
+}
+
+
+.link-color {
+  color: #1569ef !important;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+.font-size {
+  font-size: 15px !important;
+  font-weight: 700;
+}
+
+.reschedual-button {
+  background-color: black;
+}
+
+.btn-outline-dark {
+  color: black;
+}
+
+.btn-outline-dark:hover {
+  background-color: black;
+}
+
+.option-small option {
+  font-size: small;
+}
+
+.scheduler-height {
+  height: 350px;
+}
+
+small {
+  font-size: 15px;
+}
+
+.font-styling {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+}

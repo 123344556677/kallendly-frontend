@@ -1,0 +1,31 @@
+.footer-div {
+  margin: 20px;
+  text-align: center;
+}
+.first-text {
+  color: rgba(108, 117, 125);
+  font-size: 0.75em;
+}
+.second-text {
+  color: rgba(108, 117, 125);
+  font-size: 0.875em;
+}
+.thired-text {
+  color: rgba(108, 117, 125);
+  font-size: 0.875em;
+}
+.footer-first-link {
+  font-size: 0.875em;
+  color: rgba(108, 117, 125);
+}
+.footer-second-link {
+  font-size: 0.875em;
+  color: rgba(108, 117, 125);
+}
+
+.footer-shahow {
+  display: flex;
+  margin-top: 50px;
+  border: none;
+  box-shadow: 0px 0px 9px #0000001a !important;
+}

@@ -1,0 +1,55 @@
+.fw-light {
+  font-weight: 300 !important;
+}
+.signupOp {
+  color: #1569ef !important;
+}
+.loginButton {
+  background-color: #1569ef !important;
+}
+
+.loginForm {
+  border: radius 0.375em;
+  border-color: #fff;
+}
+.orFont {
+  font-style: italic;
+}
+
+.fw-light {
+  font-weight: 300 !important;
+}
+.signupOp {
+  color: #1569ef !important;
+}
+.loginButton {
+  background-color: #1569ef !important;
+}
+
+.loginForm {
+  border: radius 0.375em;
+  border-color: #fff;
+}
+.orFont {
+  font-style: italic;
+}
+
+.Google-Btn {
+  width: 100%;
+  box-shadow: none !important;
+  border: 1px solid #1569ef !important;
+  border-radius: 2px !important;
+  margin-bottom: 10px;
+}
+
+.Google-Btn span {
+  color: black !important;
+  width: 100%;
+}
+
+.Google-Btn div {
+  position: absolute;
+  z-index: 1;
+  padding: 0px !important;
+  padding-left: 10px !important;
+}

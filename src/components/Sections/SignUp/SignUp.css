@@ -1,0 +1,28 @@
+.cool-heading {
+  font-weight: 300 !important;
+  font-size: 1.75rem;
+  color: black;
+}
+.form-label {
+  font-weight: 700 !important;
+}
+.sign-or {
+  font-style: italic;
+  font-size: 0.875em;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+  color: 108, 117, 125;
+}
+.already-reg {
+  color: #1569ef;
+}
+.already-reg:hover {
+  color: #1154bf;
+}
+.validation-text {
+  color: red;
+  font-size: 11px;
+}
+.signup-card {
+  border-radius: 0.375rem !important;
+}

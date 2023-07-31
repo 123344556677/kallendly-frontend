@@ -1,0 +1,16 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  float: left !important;
+  background-color: lightgrey;
+  height: 100vh;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.w-auto {
+  width: auto !important;
+  height: 500px;
+  overflow: auto;
+}

@@ -1,0 +1,43 @@
+.tick{
+    color:rgb(41, 236, 41)!important;
+    font-size:30px;
+    font-weight: 300!important;
+}
+.cross{
+    color:red;
+    /* font-size:30px; */
+    font-weight: 300!important;
+
+}
+.price{
+    font-weight: 600;
+}
+.features{
+    border:none !important;
+}
+.features-text{
+    font-size:12px;
+    /* position:absolute;
+    margin-top: 25px!important; */
+
+}
+.pricing-button{
+    color: #fff;
+    background-color: #1569ef !important ;
+}
+.view-button{
+    color: #fff;
+    background-color: #1569ef !important ;
+    padding-left:80px;
+    padding-right:80px;
+}
+.view-button:hover{
+    color: #fff;
+    background-color: #1569ef !important ;
+    padding-left:80px;
+    padding-right:80px;
+}
+.pricing-button:hover{
+    color: #fff;
+    background-color: #1569ef !important ;
+}

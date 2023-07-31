@@ -1,0 +1,91 @@
+.alert-float {
+  z-index: 1099;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px !important;
+  margin: auto;
+  left: 0;
+  right: 0;
+  max-width: 500px;
+}
+
+.bg-table {
+  background-color: #e2eaf4;
+}
+
+.googley {
+  box-shadow: none !important;
+  color: white !important;
+  /* font-weight: 700!important; */
+  /* padding: 50px !important; */
+  /* visibility:hidden!important; */
+  /* display: none !important;; */
+  /* position:absolute!important; */
+  /* margin-bottom: 20px!important; */
+  /* z-index:100; */
+  margin-right: 20% !important;
+  background-color: none !important;
+  border: none;
+}
+.googley span {
+  display: none;
+}
+/* .google-icon{
+  z-index:50;
+  position:fixed;
+} */
+*/ .googley:hover {
+  box-shadow: none !important;
+  color: blue !important;
+  margin-left: 110px !important;
+  /* background-color: blue!important; */
+  border: none;
+  /* position:absolute!important; */
+  /* visibility:hidden!important; */
+  /* margin-bottom: 20px!important; */
+  /* z-index:100; */
+}
+
+.microsoft-btn {
+  top: 50px;
+  left: 50px;
+  right: 50%;
+  z-index: 100;
+}
+
+.microsoft-btn path {
+  visibility: hidden !important;
+}
+
+.z-index {
+  z-index: 1;
+}
+
+.color-show {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+}
+
+.border-left {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.input-bg {
+  background-color: #e9ecef !important;
+}
+
+.border-stripe {
+  border: 1px solid black;
+}
+
+.primium-class {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+@media screen and (max-width: 767px) {
+  .padding-responsive {
+    padding: 0px !important;
+  }
+}
